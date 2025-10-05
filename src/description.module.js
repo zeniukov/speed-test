@@ -19,7 +19,7 @@ export const Header = () => {
 
   const listItem2 = document.createElement("li");
   const list2B = document.createElement("b");
-  list2B.textContent = "от 150 - 170мс -";
+  list2B.textContent = "от 150 - 170мс - ";
   const list2 = document.createElement("span");
   list2.textContent =
     "Это пять с плюсом! Чемпионы мира по пинг-понгу и боксу смотрят на Вас как на конкурента.";
@@ -87,7 +87,7 @@ export const Header = () => {
   estimationList.append(
     listItem1,
     listItem2,
-    listItem1,
+    listItem3,
     listItem4,
     listItem5,
     listItem6,
